@@ -1,0 +1,31 @@
+# ===== Node =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Environment variables =====
+.env
+.env.*
+!.env.example
+
+# ===== Logs =====
+logs
+*.log
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== VSCode =====
+.vscode/
+
+# ===== Coverage =====
+coverage/
+
+# ===== Build / dist =====
+dist/
+build/
+
+# ===== Optional: package-lock nếu không muốn push =====
+# package-lock.json
